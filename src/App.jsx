@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import Button from './components/ui/Button/index.js'
 import { useTheme } from './hooks/useTheme.js'
 
 const colorGroups = [
@@ -129,6 +130,24 @@ function App() {
           </section>
 
           <aside className="space-y-6">
+            <section className="rounded-lg border border-border-subtle bg-surface-primary p-6 shadow-[var(--shadow-low)]">
+              <p className="text-sm font-semibold text-text-muted">Componente base</p>
+              <h2 className="mt-1 text-xl font-bold">Button</h2>
+
+              <div className="mt-5 flex flex-wrap gap-3">
+                <Button>Salvar</Button>
+                <Button variant="secondary">Visualizar</Button>
+                <Button variant="ghost">Cancelar</Button>
+                <Button variant="danger">Excluir</Button>
+
+                <Button isLoading loadingText="Salvando...">
+                  Salvar
+                </Button>
+
+                <Button disabled>Desabilitado</Button>
+              </div>
+            </section>
+
             <section className="rounded-lg border border-border-subtle bg-surface-primary p-6 shadow-[var(--shadow-low)]">
               <p className="text-sm font-semibold text-text-muted">Fundações</p>
               <h2 className="mt-1 text-xl font-bold">Regras compartilhadas</h2>
