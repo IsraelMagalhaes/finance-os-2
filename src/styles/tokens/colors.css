@@ -1,0 +1,70 @@
+:root {
+  --color-brand-50: #f3f1ff;
+  --color-brand-100: #e8e4ff;
+  --color-brand-200: #d3ccff;
+  --color-brand-300: #b5a7ff;
+  --color-brand-400: #9278ff;
+  --color-brand-500: #7554f6;
+  --color-brand-600: #6338e8;
+  --color-brand-700: #532cc4;
+  --color-brand-800: #45279f;
+  --color-brand-900: #3a247f;
+  --color-brand-950: #241550;
+
+  --color-accent-50: #ecfeff;
+  --color-accent-100: #cffafe;
+  --color-accent-200: #a5f3fc;
+  --color-accent-300: #67e8f9;
+  --color-accent-400: #22d3ee;
+  --color-accent-500: #06b6d4;
+  --color-accent-600: #0891b2;
+  --color-accent-700: #0e7490;
+  --color-accent-800: #155e75;
+  --color-accent-900: #164e63;
+
+  --color-success: #22c55e;
+  --color-success-soft: rgb(34 197 94 / 14%);
+  --color-success-text: #86efac;
+  --color-warning: #f59e0b;
+  --color-warning-soft: rgb(245 158 11 / 14%);
+  --color-warning-text: #fcd34d;
+  --color-danger: #ef4444;
+  --color-danger-soft: rgb(239 68 68 / 14%);
+  --color-danger-text: #fca5a5;
+  --color-info: #3b82f6;
+  --color-info-soft: rgb(59 130 246 / 14%);
+  --color-info-text: #93c5fd;
+}
+
+:root,
+[data-theme='dark'] {
+  --color-background: #0b0d12;
+  --color-background-elevated: #11141b;
+  --color-surface-primary: #161a22;
+  --color-surface-secondary: #1b202a;
+  --color-surface-tertiary: #222834;
+  --color-border-subtle: #2a313d;
+  --color-border-strong: #394250;
+  --color-text-primary: #f3f5f7;
+  --color-text-secondary: #b6bec9;
+  --color-text-muted: #7e8997;
+  --color-text-disabled: #596270;
+  --color-overlay: rgb(0 0 0 / 64%);
+  color-scheme: dark;
+}
+
+[data-theme='light'] {
+  --color-background: #f5f7fa;
+  --color-background-elevated: #ffffff;
+  --color-surface-primary: #ffffff;
+  --color-surface-secondary: #f0f3f7;
+  --color-surface-tertiary: #e9edf3;
+  --color-border-subtle: #dde3ea;
+  --color-border-strong: #c8d0da;
+  --color-text-primary: #151922;
+  --color-text-secondary: #4c5664;
+  --color-text-muted: #7b8796;
+  --color-text-disabled: #adb5c0;
+  --color-overlay: rgb(15 23 42 / 48%);
+  color-scheme: light;
+}
